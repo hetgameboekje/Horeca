@@ -98,3 +98,13 @@
       height: auto;
     }
   }
+
+  .footerbox{
+    background-color: #674D34;
+    height: 600px;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    z-index: -3;
+    clip-path: polygon(100% 40%, 100% 100%, 28% 100%, 28% 83%, 61% 47%);
+  }
