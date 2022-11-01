@@ -22,7 +22,6 @@
   }
   
   .dropdown {
-    float: left;
     overflow: hidden;
   }
   
@@ -108,3 +107,4 @@
     z-index: -3;
     clip-path: polygon(100% 40%, 100% 100%, 28% 100%, 28% 83%, 61% 47%);
   }
+
