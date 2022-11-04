@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-</head>
+    <style>
+      I:hover {
+          cursor: pointer;
+      }
+  </style>
+
+  </head>
 <body>
   
     <div class="navbar1">
@@ -44,20 +50,21 @@
     </div>
   </div> 
 </div>
+<!--  -->
 <div class="spacenavbar"></div>
 <div style="padding:16px">
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-xl-3"><img src="assets/img/doner-kebab-3-1080x960.jpg" width="247" height="236">
-                <p class="fs-2">&nbsp; broodje döner&nbsp;<i class="icon ion-plus"></i></p>
+            <div class="col-md-4 col-xl-3"><img  src="assets/img/doner-kebab-3-1080x960.jpg" width="247" height="236" >
+                <p class="fs-2">&nbsp; broodje döner&nbsp;<i  onclick="productClick(0);" class="icon ion-plus"></i></p>
             </div>
             <div class="col-md-4 col-xl-3"><img width="247" height="236" src="assets/img/clipboard-image-13.png">
-                <p class="fs-2">&nbsp;broodje ham&nbsp; &nbsp; &nbsp;<i class="icon ion-plus"></i></p>
+                <p class="fs-2">&nbsp;broodje ham&nbsp; &nbsp; &nbsp;<i  onclick="productClick(1);" class="icon ion-plus"></i></p>
             </div>
             <div class="col-md-4 col-xl-3"><img src="assets/img/clipboard-image-14.png"
                     style="width: 247px;height: 236px;">
-                <p class="fs-2">&nbsp; broodje worst&nbsp;&nbsp;<i class="icon ion-plus"></i></p>
+                <p class="fs-2">&nbsp; broodje worst&nbsp;&nbsp;<i  onclick="productClick(2);" class="icon ion-plus"></i></p>
             </div>
         </div>
         <div class="row">
@@ -75,6 +82,16 @@
         </div>
         <div class="row"></div>
     </div>
+
+    Dit is de array reeks van ID's van producten.<br />
+    <div id="wmid" onclick="toonwmid();">...</div>
+    <br />
+    
+    Dit is de volle winkelmand met totaalprijs.
+    <hr />
+    <div id="winkelmandjeId" onclick="toonWinkelmandje();">Winkelmandje producten:</div>
+    <br />
+    <button onclick="emptyWM()"><b>Maak Winkelmand leeg</b></button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 
   <div class="footerbox"></div>
@@ -109,6 +126,7 @@
         </div>
     </div>
 </footer>
+<script src="assets/js/functions.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
