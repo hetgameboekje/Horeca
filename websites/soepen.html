@@ -51,36 +51,49 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-xl-3"><img src="assets/img/clipboard-image-17.png" width="247" height="236">
-                <p class="fs-2">&nbsp;Tomaten soep&nbsp;&nbsp;<i class="icon ion-plus"></i></p>
+                <p class="fs-2">&nbsp;Tomaten soep&nbsp;&nbsp;<i onclick="productClick(0);" class="icon ion-plus"></i></p>
             </div>
             <div class="col-md-4 col-xl-3"><img width="247" height="236" src="assets/img/clipboard-image-18.png">
-                <p class="fs-2">&nbsp;Groente soep&nbsp; &nbsp;&nbsp;<i class="icon ion-plus"></i></p>
+                <p class="fs-2">&nbsp;Groente soep&nbsp; &nbsp;&nbsp;<i onclick="productClick(1);" class="icon ion-plus"></i></p>
             </div>
             <div class="col-md-4 col-xl-3"><img src="assets/img/clipboard-image-19.png"
                     style="width: 247px;height: 236px;">
-                <p class="fs-2">Champignon&nbsp; &nbsp;&nbsp;<i class="icon ion-plus"></i><br>soep</p>
+                <p class="fs-2">Champignon&nbsp; &nbsp;&nbsp;<i onclick="productClick(2);" class="icon ion-plus"></i><br>soep</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4 col-xl-3"><img src="assets/img/clipboard-image-20.png" width="247" height="236"
                     style="height: 236px;width: 247px;">
-                <p class="fs-2">&nbsp;Erwten soep&nbsp; &nbsp; &nbsp;<i class="icon ion-plus"></i></p>
+                <p class="fs-2">&nbsp;Erwten soep&nbsp; &nbsp; &nbsp;<i onclick="productClick(3);" class="icon ion-plus"></i></p>
             </div>
             <div class="col-md-4 col-xl-3"><img src="assets/img/clipboard-image-21.png" width="247" height="236">
-                <p class="fs-2">&nbsp;Wortel soep&nbsp; &nbsp; &nbsp; &nbsp;<i class="icon ion-plus"></i></p>
+                <p class="fs-2">&nbsp;Wortel soep&nbsp; &nbsp; &nbsp; &nbsp;<i onclick="productClick(4);" class="icon ion-plus"></i></p>
             </div>
             <div class="col-md-4 col-xl-3"><img src="assets/img/clipboard-image-22.png" width="247" height="236">
-                <p class="fs-2">&nbsp; Kippen soep&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="icon ion-plus"></i></p>
+                <p class="fs-2">&nbsp; Kippen soep&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i onclick="productClick(5);" class="icon ion-plus"></i></p>
             </div>
         </div>
         <div class="row"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <div class="footerbox"></div>
+
+</div>
+Dit is je order nummer van soepen (SP +
+<div id="wmid" onclick="toonwmid();">...</div>
+) <br>
+
+Winkelmandje:
+<hr />
+<div id="winkelmandjeId" onclick="toonWinkelmandje();">Winkelmandje producten:</div>
+<br />
+<div onclick="emptyWM()"><b class="buttonwm">Leeg winkelmandje</b></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </div>
 
+<script src="assets/js/soepen.js"></script>
 
+<div class="footerbox"></div>
 <footer class="bg-dark" style="padding-bottom: 0px;margin-top: -62px;">
     <div class="container py-4 py-lg-5" style="margin-bottom: 1px;">
         <div class="fs-3 d-flex justify-content-between align-items-center pt-3">
@@ -108,6 +121,10 @@
             </div>
         </div>
     </div>
+
+
+
+    
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
