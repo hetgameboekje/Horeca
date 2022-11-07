@@ -2,12 +2,12 @@ var winkelmandje = Array();
 
 var products = Array();
 var products = {
-    "0": {"naam": "Broodje döner ", "prijs": 2},
-    "1": {"naam": "Broodje ham", "prijs": 3},
-    "2": {"naam": "Broodje Worst", "prijs": 3},
-    "3": {"naam": "Broodje omelet", "prijs": 3},
-    "4": {"naam": "Broodje shoarma ", "prijs": 4},
-    "5": {"naam": "Hete kip", "prijs": 3},
+    "0": {"naam": "Chocolade ijs ", "prijs": 2},
+    "1": {"naam": "Ice-cream sandwich", "prijs": 3},
+    "2": {"naam": "Sorbert", "prijs": 3},
+    "3": {"naam": "Appeltaart", "prijs": 3},
+    "4": {"naam": "Slagroom taart ", "prijs": 4},
+    "5": {"naam": "Macarons", "prijs": 3},
   };
 
   /*

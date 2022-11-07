@@ -5,7 +5,9 @@
   body {
     margin: 0;
   }
-  
+  i:hover{
+    cursor: pointer;
+  }
   .navbar1 {
     overflow: hidden;
     background-color: #9EF480;
