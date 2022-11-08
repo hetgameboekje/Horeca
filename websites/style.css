@@ -5,7 +5,9 @@
   body {
     margin: 0;
   }
-  
+  i:hover{
+    cursor: pointer;
+  }
   .navbar1 {
     overflow: hidden;
     background-color: #9EF480;
@@ -126,4 +128,25 @@
     z-index: -3;
     clip-path: polygon(100% 40%, 100% 100%, 28% 100%, 28% 83%, 61% 47%);
   }
-
+.buttonwm  { 
+    background-color: #9EF480;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 200px;
+    position: relative;
+    left: 40%;
+    top: 20%;
+    z-index: 1;
+  }
+.buttonwm:hover {
+  cursor: pointer;
+  background-color: #7fc366;
+}
