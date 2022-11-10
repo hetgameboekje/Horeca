@@ -4,12 +4,6 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
-
-body {
-    height: 100vh;
-    width: 100%;
-}
-
 .container {
     position: relative;
     width: 100%;

@@ -1,11 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "../../../../../../../../xampp/htdocs/horeca"
+			"path": ".."
 		},
 		{
-			"path": "."
+			"path": "../../../../../Desktop/winkelmandje"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Horeca"
+	}
 }
