@@ -27,7 +27,7 @@ include "navbar.php"
 
 
 <?php 
-include "navbar.php"
+include "footer.php"
 ?>
   
   
